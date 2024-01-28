@@ -1,10 +1,10 @@
 @font-face {
     font-family: gill;
-    src: url(Gilroy-Regular.ttf);
+    src: url(fonts/Gilroy-Regular.ttf);
 }
 @font-face {
     font-family: monu;
-    src: url(MonumentExtended-Regular.otf);
+    src: url(fonts/MonumentExtended-Regular.otf);
 }
 *{
     margin: 0;
@@ -234,7 +234,7 @@ html ,body{
 .page2-part1{
     height: 45vw;
     width: 50%;
-    background-image: url(photo-1456885284447-7dd4bb8720bf.avif);
+    background-image: url(image/photo-1456885284447-7dd4bb8720bf.avif);
     background-size: cover;
     background-position: center;
 }
@@ -293,7 +293,7 @@ html ,body{
 .textb{
     width:55% ;
     height: 40vw;
-   background-image: url(istockphoto-1042786436-612x612.jpg);
+   background-image: url(image/istockphoto-1042786436-612x612.jpg);
    background-size: cover;
    background-position: center;
 }
@@ -462,6 +462,10 @@ html ,body{
 }
 
 @media (max-width:600px) {
+
+    .overlay{
+        height: 40%;
+    }
     
     .main{
         height: auto;
