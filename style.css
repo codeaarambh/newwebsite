@@ -86,6 +86,9 @@ html ,body{
     font-size: 22px;
   
 }
+.nav h3{
+    display: none;
+}
 .center{
     height: 80%;
     width: 100%;
@@ -461,6 +464,107 @@ html ,body{
     
 }
 
+
+.page6{
+    width: 100%;
+   
+   
+    padding: 0vw 5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.page6-a{
+    width: 50%;
+    height: 40vw;
+    background-image: url(image/page6.avif);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.page6-b{
+    width: 45%;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.page6-text{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  
+
+}
+
+.page6-text h1{
+    font-family: monu;
+    font-size: 2.3vw;
+
+}
+.page6-text h3{
+   
+    font-size: 1.9vw;
+    font-weight: 700;
+    width: 70%;
+
+}
+.page6-text h4{
+   
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.664);
+  
+
+}
+.page6-images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+   
+ 
+}
+.page6-images img{
+    width: 45%;
+  height: 21vw;
+  object-fit: cover;
+  object-position: center;
+
+  
+}
+.text h3{
+    font-weight: 900;
+}
+.page7{
+    width: 93%;
+    height: 40vw;
+    margin: auto;
+    padding: 20px;
+    object-position: cover;
+    background-position: center;
+}
+.page7 img{
+    width: 100%;
+    height:100%;
+    object-position: center;
+    object-fit: cover;
+   
+   
+   
+   
+}
+.page2-part1 .aimg8{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 @media (max-width:600px) {
 
     .overlay{
@@ -469,6 +573,9 @@ html ,body{
     
     .main{
         height: auto;
+    }
+    .nav{
+        padding: 1vw 2vw;
     }
     .nav h1{
         justify-content: flex-start;
@@ -560,5 +667,48 @@ html ,body{
     object-fit: cover;
     object-position: top;
 
+}
+.nav h3{
+    display: block;
+    
+}
+
+.page6 {
+    flex-direction: column;
+    gap: 30px;
+}
+.page6-a {
+ width: 90%;
+ height: 40vw;
+ margin: auto;
+}
+.page6-b {
+    width: 90%;
+    margin: auto;
+  height: fit-content;
+}
+
+.page6-text h1 {
+    font-size: 8vw;
+}
+
+.page6-text h3 {
+    font-size: 3.2vw;
+}
+.page6-text h4 {
+    font-size: 2.8vw;
+}
+.page6-images {
+    flex-direction: column;
+}
+.page6-images img {
+    width: 95%;
+    height: 50vw;
+    object-fit: cover;
+    object-position: top;
+    margin: auto;
+}
+.page7{
+    display: none;
 }
 }
